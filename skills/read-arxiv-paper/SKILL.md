@@ -1,6 +1,7 @@
 ---
 name: read-arxiv-paper
 description: Use this skill when asked to read an arxiv paper given an arxiv URL
+version: "1.0.0"
 ---
 
 You will be given a URL of an arxiv paper, for example:
