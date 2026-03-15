@@ -4,15 +4,22 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a new/empty repository named "agent-skills" with an MIT License. The project structure and purpose have not yet been established.
+Claude Code Skills 集合仓库，提供可复用的技能模块。
 
-## Current State
+## Project Structure
 
-- No source code exists yet
-- No build system, package manager, or test framework configured
-- No existing architecture or patterns to follow
+```
+agent-skills/
+├── skills/               # Skills 目录
+│   └── read-arxiv-paper/ # arXiv 论文阅读 skill
+│       └── SKILL.md
+├── README.md             # 项目说明
+└── CLAUDE.md             # Claude Code 指引
+```
 
-As the project develops, this file should be updated to document:
-- Build, test, and lint commands
-- Project architecture and key patterns
-- Important conventions and workflows
+## Adding New Skills
+
+新增 skill 时：
+1. 在 `skills/` 下创建新目录
+2. 添加 `SKILL.md` 文件，包含 frontmatter (name, description) 和具体步骤
+3. 更新 README.md 说明用法

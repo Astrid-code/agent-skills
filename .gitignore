@@ -1,0 +1,2 @@
+# Claude Code settings - may contain tokens/credentials
+.claude/settings.local.json
